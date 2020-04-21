@@ -9,7 +9,6 @@
 
 > Once you have installed Docker, open any CMD and enter:
 ```
-
 docker --version
 
 > It should show something like 'Docker version 19.03.8, build afacb8b'.
@@ -19,10 +18,8 @@ docker --version
 > Now, you can enter your credentials either on the Docker App or with Docker CLI.
 > Using the Docker CLI, please enter:
 ```
-
 docker login
 >
-
 > enter username and password
 ```
 Well done, you should be able to start working, but before let's get a little more familiar with Docker CLI. Please type:
@@ -78,7 +75,6 @@ COPY . .
 > Let's now build our image. Using your CMD navigate to the file directory where you have the file 'Dockerfile'. 
 > And run the command below:
 ```
-
 docker build --tag bulletinboard:1.0 .
 
 > It should execute the file 'Dockerfile' with all specific commands, build the image and target the name bulletinboard with the  version 1.0
@@ -86,14 +82,12 @@ docker build --tag bulletinboard:1.0 .
 ```
 > Cool, now let's check if the image has succeeded built. Just type:
 ```
-
 docker image ls
 
 > And it should print a list of images available
 ```
 > But it's important to note, it's only the image, we still have to deploy this image inside the container, so, let's check before if we have an existing container. Let's type:
 ```
-
 docker container ls --aa
 
 > It should display the number of containers you have built with some additional information.
