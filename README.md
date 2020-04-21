@@ -9,21 +9,26 @@
 
 > Once you have installed Docker, open any CMD and enter:
 ```
+
 docker --version
-// It should show something like 'Docker version 19.03.8, build afacb8b'.
+
+> It should show something like 'Docker version 19.03.8, build afacb8b'.
 ```
 > Congrats, you have Docker up and running.
 
 > Now, you can enter your credentials either on the Docker App or with Docker CLI.
 > Using the Docker CLI, please enter:
 ```
+
 docker login
--- enter username and password
+>
+
+> enter username and password
 ```
 Well done, you should be able to start working, but before let's get a little more familiar with Docker CLI. Please type:
  ```
  docker --help
- ```
+``` 
  We will be using a few of these commands, like:
  > docker image ls // list all built images
  > docker container ls // list all containers built
@@ -81,12 +86,16 @@ docker build --tag bulletinboard:1.0 .
 ```
 > Cool, now let's check if the image has succeeded built. Just type:
 ```
+
 docker image ls
+
 > And it should print a list of images available
 ```
 > But it's important to note, it's only the image, we still have to deploy this image inside the container, so, let's check before if we have an existing container. Let's type:
 ```
+
 docker container ls --aa
+
 > It should display the number of containers you have built with some additional information.
 ```
 
