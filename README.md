@@ -105,7 +105,7 @@ docker run --publish 8000:8080 --detach --name bb bulletinboard:1.0
 ```
 > Now, let's check again our list of containers by running:
 ```
-docker container ls --aa
+docker container ls
 ```
 > Cool, if everything went through correctly, you should get a built container running with a docker image forwarding any incoming requests from localhost:8080 to localhost:8000, so let's open your browser and enter:
 ```
