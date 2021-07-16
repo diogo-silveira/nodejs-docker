@@ -28,10 +28,15 @@ Well done, you should be able to start working, but before let's get a little mo
 ``` 
  We will be using a few of these commands, like:
  > docker image ls // list all built images
+ > 
  > docker container ls // list all containers built
+ > 
  > docker start {imagename} // start docker container 
+ > 
  > docker stop {imagename} // stop docker container
+ > 
  > docker build // this command needs more props to run, so keep it on the mind and we'll see it below
+ > 
  > docker run // this command needs more props to run, so keep it on the mind and we'll see it below
  
  Please, visit this link ( https://docs.docker.com/engine/reference/commandline/docker/ ) to get known all commands.
